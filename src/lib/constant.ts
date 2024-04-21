@@ -102,6 +102,16 @@ export const menuOptions = [
     { name: 'Logs', Component: Logs, href: '/logs' },
 ]
 
+// export const menuOptions = [
+//     { id: 0, name: 'Dashboard', image: Home, href: '/dashboard', designation: "Software Engineer" },
+//     { id: 1, name: 'Workflows', image: Workflows, href: '/workflows', designation: "Software Engineer" },
+//     { id: 2, name: 'Settings', image: Settings, href: '/settings', designation: "Software Engineer" },
+//     { id: 3, name: 'Connections', image: Category, href: '/connections', designation: "Software Engineer" },
+//     { id: 4, name: 'Billing', image: Payment, href: '/billing', designation: "Software Engineer" },
+//     { id: 5, name: 'Templates', image: Templates, href: '/templates', designation: "Software Engineer" },
+//     { id: 6, name: 'Logs', image: Logs, href: '/logs' },
+// ]
+
 export const EditorCanvasDefaultCardTypes = {
     Email: { description: 'Send and email to a user', type: 'Action' },
     Condition: {
