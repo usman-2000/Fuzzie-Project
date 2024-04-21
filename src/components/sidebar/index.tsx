@@ -8,6 +8,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { menuOptions } from "@/lib/constant";
 
 type Props = {};
 
@@ -20,8 +21,8 @@ const MenuOptions = (props: Props) => {
           fuzzie.
         </Link>
         <TooltipProvider>
-          {menuOptions.map(() => (
-            <div></div>
+          {menuOptions.map((menu) => (
+            <ul key={menu.name}></ul>
           ))}
         </TooltipProvider>
       </div>
